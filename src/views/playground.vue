@@ -5,7 +5,7 @@
     <button @click="objectHaveMethod.test1">objectHaveMethod.test1</button>
     <button @click="funcData">funcData</button>
     <!-- 手动绑定 -->
-    <button @click="funcData.apply(that)">funcData(manual bind)</button>
+    <button @click="funcData.apply($root)">funcData(manual bind)</button>
     <button @click="funcMethods">funcMethods</button>
     <button @click="arrowFuncData">arrowFuncData</button>
   </div>
